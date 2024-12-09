@@ -1,0 +1,10 @@
+Example Code:
+Fixed architecture: 3 convolutional layers with increasing filter sizes (32 → 64 → 128), each followed by a MaxPooling2D layer.
+Includes a Dropout layer after the convolutional layers to reduce overfitting.
+Output layer uses softmax activation for a 2-class classification problem (Dense(2, activation='softmax')).
+
+
+32, 32, 32
+Total params: 281,793 (1.07 MB)
+ Trainable params: 281,793 (1.07 MB)
+ Non-trainable params: 0 (0.00 B)
