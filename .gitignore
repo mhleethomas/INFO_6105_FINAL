@@ -26,3 +26,4 @@ concrete_crack_images/
 concrete_crack_images.zip
 Keras_CatsvsDogs.ipynb
 concrete_crack_images KAGGLE/
+*.png
